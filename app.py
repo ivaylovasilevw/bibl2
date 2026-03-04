@@ -4,7 +4,7 @@
 st.header(" Търсене по автор")
 search_author = st.text_input("Въведи име на автор")
 if st.button("Търси по автор"):
-found = False
+  found = False
 for book in st.session_state.books:
         if book["author"] == search_author:
             st.write(book)
