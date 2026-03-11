@@ -16,7 +16,7 @@ book = {
 "title": title,
 "author": author,
 "price": price,
-       }
+}
 st.session_state.books.append(book)
 st.success("Книгата е добавена!")
 # =========================
